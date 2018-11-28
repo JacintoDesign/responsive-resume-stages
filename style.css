@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    margin-left: 20%;
+}
+
+/* Navigation ----------------------------------------------- */
+.nav {
+    width: 18%;
+    height: 100%;
+    background-color: grey;
+    position: fixed; 
+}
+
+.nav a {
+    color: white;
+}
+/* About ---------------------------------------------------- */
+/* Experience ----------------------------------------------- */
+/* Education ------------------------------------------------ */
+/* Skills --------------------------------------------------- */
+/* Interests ------------------------------------------------ */
+/* Awards --------------------------------------------------- */
