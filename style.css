@@ -20,12 +20,36 @@ section {
 .nav {
     width: 18%;
     height: 100%;
-    background-color: grey;
+    background-color: #000000;
     position: fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .nav a {
-    color: white;
+    color: #777777;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    margin-right: 40px;
+}
+
+.nav a:hover {
+    color: rgb(228, 228, 228);
+}
+
+.nav a:active, .nav a:focus-within {
+    color: #ffffff;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    border: .5rem solid rgba(255,255,255,.2);
 }
 /* About ---------------------------------------------------- */
 /* Experience ----------------------------------------------- */
