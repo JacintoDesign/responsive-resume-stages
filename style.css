@@ -1,32 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Saira+Extra+Condensed');
 
 html, body {
     margin: 0;
     scroll-behavior: smooth;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
 
+/* Section */
 section {
     min-height: 100vh;
     margin-left: 20%;
 }
-
 .content-top {
     top: 28vh;
 }
-
 .content-padding {
     position: relative;
     padding: 0 5vw 0 1vw;
 }
+
+/* Font Properties */
 .main {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5rem;
@@ -40,6 +38,29 @@ section {
 }
 .section-title {
     font-size: 4rem;
+}
+.item-subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #5d6369;
+}
+
+/* Bulleted List */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  margin-left: 10px;
+}
+.indent {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+/* Colors */
+.red {
+    color: #D30000;
 }
 .grey {
     color: #5d6369;
@@ -85,16 +106,29 @@ section {
 /* Experience ----------------------------------------------- */
 /* Education ------------------------------------------------ */
 /* Skills --------------------------------------------------- */
+.skill-icons {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+.icons {
+  display: block;
+  position: relative;
+  flex-direction: row;
+  margin-left: 75px;
+}
+.no-margin-left {
+    margin-left: -1vw;
+}
+.skill-icon {
+    font-size: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#diamond {
+    font-size: 3rem;
+}
 /* Interests ------------------------------------------------ */
 /* Awards --------------------------------------------------- */
-.list {
-    display: flex;
-    flex-direction: column;
-}
-.list-item {
-    margin-left: 10px;
-}
-.indent {
-    display: inline-block;
-    margin: 0 0 0 10px;
-}
