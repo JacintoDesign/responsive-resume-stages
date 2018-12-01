@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-/* Section */
+/* Section Properties */
 section {
     min-height: 100vh;
     margin-left: 20%;
@@ -45,7 +45,7 @@ section {
     color: #5d6369;
 }
 
-/* Bulleted List */
+/* Bulleted List Properties */
 .list {
   display: flex;
   flex-direction: column;
