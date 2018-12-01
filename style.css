@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
 html, body {
     margin: 0;
     scroll-behavior: smooth;
@@ -14,6 +17,32 @@ ul {
 section {
     min-height: 100vh;
     margin-left: 20%;
+}
+
+.content-top {
+    top: 28vh;
+}
+
+.content-padding {
+    position: relative;
+    padding: 0 5vw 0 1vw;
+}
+.main {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    color: #5d6369;
+}
+.title {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.section-title {
+    font-size: 4rem;
+}
+.grey {
+    color: #5d6369;
 }
 
 /* Navigation ----------------------------------------------- */
@@ -51,9 +80,21 @@ section {
     height: 10rem;
     border: .5rem solid rgba(255,255,255,.2);
 }
+
 /* About ---------------------------------------------------- */
 /* Experience ----------------------------------------------- */
 /* Education ------------------------------------------------ */
 /* Skills --------------------------------------------------- */
 /* Interests ------------------------------------------------ */
 /* Awards --------------------------------------------------- */
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list-item {
+    margin-left: 10px;
+}
+.indent {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
