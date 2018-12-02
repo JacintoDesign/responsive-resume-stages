@@ -126,6 +126,41 @@ section {
 }
 
 /* About ---------------------------------------------------- */
+.main-title {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 7rem;
+    margin: 0;
+}
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5d6369;
+    line-height: 2rem;
+    margin: 0;
+}
+.social-icons {
+    display: flex;
+    position: absolute;
+    margin-top: 3vh;
+    left: -40px;
+}
+.social-icons .icons {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.circle {
+    font-size: 3.5rem;
+}
+.social-icon {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* Experience ----------------------------------------------- */
 .experience-content-top {
     top: 5vh;
