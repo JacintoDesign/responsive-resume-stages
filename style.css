@@ -67,6 +67,7 @@ section {
 .align-right {
     text-align: right;
 }
+
 /* Bulleted List Properties */
 .list {
   display: flex;
@@ -126,6 +127,10 @@ section {
 
 /* About ---------------------------------------------------- */
 /* Experience ----------------------------------------------- */
+.experience-content-top {
+    top: 5vh;
+}
+
 /* Education ------------------------------------------------ */
 /* Skills --------------------------------------------------- */
 .skill-icons {
@@ -152,5 +157,6 @@ section {
 #diamond {
     font-size: 3rem;
 }
+
 /* Interests ------------------------------------------------ */
 /* Awards --------------------------------------------------- */
