@@ -39,12 +39,34 @@ section {
 .section-title {
     font-size: 4rem;
 }
+.item-title {
+    font-size: 1.8rem;
+}
 .item-subtitle {
     font-size: 1.4rem;
     font-weight: 500;
     color: #5d6369;
 }
 
+/* Item Properties */
+.item-wrapper {
+    display: flex;
+    margin-bottom: 7vh;
+}
+.item {
+    display: block;
+    width: 70%;
+}
+.item-right {
+    display: block;
+    width: 30%;
+}
+.item-date {
+    margin-top: 8px;
+}
+.align-right {
+    text-align: right;
+}
 /* Bulleted List Properties */
 .list {
   display: flex;
