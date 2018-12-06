@@ -103,7 +103,6 @@ section {
     justify-content: center;
     text-align: center;
 }
-
 .nav a {
     color: #777777;
     font-family: 'Segoe UI', sans-serif;
@@ -112,20 +111,23 @@ section {
     padding: 10px;
     margin-right: 40px;
 }
-
 .nav a:hover {
     color: rgb(228, 228, 228);
 }
-
 .nav a:active, .nav a:focus-within {
     color: #ffffff;
 }
-
 .rounded-img {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
     border: .5rem solid rgba(255,255,255,.2);
+}
+.nav-title {
+    display: none;
+}
+.menu-bars .fa {
+    display: none;
 }
 
 /* About ---------------------------------------------------- */
@@ -210,12 +212,27 @@ section {
         width: 100%;
         height: 50px;
         background-color: #000;
+        z-index: 100;
+    }
+    .menu-bars .fa {
+        color: #fff;
+        font-size: 30px;
+        display: initial;
+        position: absolute;
+        top: 10px;
+        left: 12px;
     }
     .nav {
         width: 100%;
         height: 210px;
         margin-top: 50px;
         z-index: 20;
+        top: -500px;
+        transition: 0.75s ease;
+    }
+    .nav-expand {
+        top: 0;
+        transition: 0.3s ease;
     }
     .nav a {
         padding: 5px;
@@ -226,6 +243,7 @@ section {
     .nav-title {
         color: white;
         font-size: 32px;
+        display: initial;
         position: absolute;
         left: 33%;
     }

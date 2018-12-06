@@ -15,9 +15,12 @@
                 <span class="dark-red">Design</span>
             </span>
         </a>
+        <div class="menu-bars" onclick="Toggle()">
+            <i class="fab fa-bars fa"></i>
+        </div>
     </div>
 
-    <nav class="nav">
+    <nav class="nav" id="nav">
         <ul>
             <li class="display-picture">
                 <a href="#about">
@@ -278,5 +281,16 @@
             </div>
         </div>
     </section>
+    <!-- Javascript -->
+    <script>
+    function Toggle() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+        x.className += " nav-expand";
+    } else {
+        x.className = "nav";
+        }
+    } 
+    </script>
 </body>
 </html>
