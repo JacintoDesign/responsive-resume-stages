@@ -241,7 +241,7 @@ section {
         display: none;
     }
     .nav-title {
-        color: white;
+        color: #fff;
         font-size: 32px;
         display: initial;
         position: absolute;
