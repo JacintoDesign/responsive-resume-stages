@@ -131,6 +131,9 @@ section {
 }
 
 /* About ---------------------------------------------------- */
+.about-content-top {
+    top: 25.5vh;
+}
 .main-title {
     font-size: 7rem;
     font-weight: 700;
@@ -259,6 +262,16 @@ section {
         font-size: 32px;
         display: initial;
         position: absolute;
-        left: 33%;
+        left: 43%; /* It is possible this is already 43%*/
     }
+}
+/* iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .nav-title { left: 43%; } /* Might not be necessary */
+    .rounded-img { height: 8rem; width: 8rem; }
+}
+
+/* iPad */
+@media screen and (min-width: 650px) and (max-width: 768px) {
+    .nav-title { left: 40%; }
 }
