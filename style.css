@@ -64,7 +64,7 @@ section {
 .item-date {
     margin-top: 8px;
 }
-.align-right {
+.align {
     text-align: right;
 }
 
@@ -274,4 +274,26 @@ section {
 /* iPad */
 @media screen and (min-width: 650px) and (max-width: 768px) {
     .nav-title { left: 40%; }
+}
+
+/* Large Mobile */
+@media screen and (max-width: 600px) {
+    .nav-title { left: 32%; }
+    /* About --------------------------------------------- */
+    .about-content-top { top: 22vh; }
+    .circle { font-size: 3rem; }
+    .social-icon { font-size: 1.75rem; }
+    /* Experience ---------------------------------------- */
+    .experience-content-top { top: 6vh; }
+    .item-wrapper { display: block; }
+    .item { width: 100%; }
+    .item-right { width: 100%; }
+    .align { text-align: left; }
+    /* Skills -------------------------------------------- */
+    .skill-icons { margin-left: -77px; }
+    .icons { margin-left: 60px; }
+    .skill-icon { font-size: 3rem; }
+    #diamond { font-size: 2.5rem; }
+    /* Awards -------------------------------------------- */
+    .line-height { line-height: 4rem; margin-bottom: 4vh; }
 }
