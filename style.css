@@ -279,6 +279,7 @@ section {
 /* Large Mobile */
 @media screen and (max-width: 600px) {
     .nav-title { left: 32%; }
+    .content-top { top: 15vh; }
     /* About --------------------------------------------- */
     .about-content-top { top: 22vh; }
     .main-title { line-height: 6rem; }
@@ -315,7 +316,7 @@ section {
     .nav-title { left: 28%; }
     .smaller-text { font-size: .8rem; }
     /* About -------------------------*/
-    .about-content-top { top: 12`vh; }
+    .about-content-top { top: 12vh; }
     .main-title { font-size: 6rem; line-height: 5rem; }
     .sub-title { font-size: 1.4rem; }
     .circle { font-size: 2.5rem; }
