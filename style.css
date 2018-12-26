@@ -279,7 +279,7 @@ section {
 /* Large Mobile */
 @media screen and (max-width: 600px) {
     .nav-title { left: 32%; }
-    .content-top { top: 15vh; }
+    .content-top { top: 12vh; }
     /* About --------------------------------------------- */
     .about-content-top { top: 22vh; }
     .main-title { line-height: 6rem; }
