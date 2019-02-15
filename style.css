@@ -262,12 +262,11 @@ section {
         font-size: 32px;
         display: initial;
         position: absolute;
-        left: 43%; /* It is possible this is already 43%*/
+        left: 43%; 
     }
 }
 /* iPad Pro */
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
-    .nav-title { left: 43%; } /* Might not be necessary */
     .rounded-img { height: 8rem; width: 8rem; }
 }
 
@@ -286,7 +285,7 @@ section {
     .circle { font-size: 3rem; }
     .social-icon { font-size: 1.75rem; }
     /* Experience ---------------------------------------- */
-    .experience-content-top { top: 6vh; }
+    /* .experience-content-top { top: 6vh; } */
     .item-wrapper { display: block; }
     .item { width: 100%; }
     .item-right { width: 100%; }
